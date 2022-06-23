@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+     background-image: url(images/kitchen.jpg);
+}
+.container {
+     height: 100%;
+     display: block;
+}
+.container .front{
+    display: flex;
+    margin-left: 50%;
+    margin-top: -25%;
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 34%;
+    min-height: 15vh;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+}
+.container .front .input input{
+    width: 185%;
+    margin-top: 5px;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #333;
+    background: #fff;
+    font-size: 15px;
+    transition: ease 0.1s;
+}
+.container .front .input input:hover{
+    border-bottom: solid 2px #1872f2;
+}
+.container .front .btn button{
+    margin-top: 5px;
+    width: 70%;
+    height: 6vh;
+    border: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: forestgreen;
+}
+.container .front .btn button:hover{
+    border: solid 1px #1872f2;
+}
+.headerr{
+     background: #fff;
+     width: auto;
+     min-height: 20vh;
+     padding-top: 20px;
+}
+.log img{
+     width: 25%;
+}
+.headerr .link{
+     display: flex;
+     margin-left: 20px;
+}
+.headerr .link a{
+     font-size: 17px;
+     color: rgb(24, 101, 24);
+     text-decoration: none;
+     background: #f0f0f0;
+     max-height: 7vh;
+     margin-left: 20px;
+     padding: 10px;
+     font-size: 18px;
+     border-radius: 5px;
+     transition: 0.2s;
+}
+.headerr .link a:hover{
+     background: #09f;
+     color: #fff;
+}
+.inputt input{
+     height: 6vh;
+     padding: 10px;
+     margin-left: 5px;
+     outline: none;
+     border: solid 1px #1872f2;
+}
+.inputt input[type="text"]:first-child{
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+.inputt .bb{
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+.inputt{
+     margin-left: 20px;
+}
+.inputt button{
+     height: 6vh;
+     border-radius: 5px;
+     padding: 10px;
+     outline: none;
+     color: #fff;
+     background: #1872f2;
+     border: solid 1px #1872f2;
+}
+.product_report{
+     margin-left: 50px;
+     background: #f0f0f0;
+     padding: 10px;
+     font-size: 25px;
+     border-radius: 4px;
+     color: rgb(24, 101, 24);
+}
+table{
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
+     align-content: center;
+}
+tr th{
+     background: rgb(24, 101, 24);
+     color: #fff;
+     width: 20%;
+     padding: 20px;
+}
+tr td{
+      background: #fff;
+      color: black;
+      padding: 10px;
+}
+tr td .primary{
+     height: 6vh;
+     width: 35%;
+     margin-left: 10%;
+     border-radius: 5px;
+     padding: 10px;
+     outline: none;
+     color: #fff;
+     font-size: 17px;
+     background: #1872f2;
+     border: none;
+}
+tr td .denger{
+     height: 6vh;
+     width: 35%;
+     margin-left: 5%;
+     border-radius: 5px;
+     padding: 10px;
+     outline: none;
+     color: #fff;
+     font-size: 17px;
+     background: #670101;
+     border: none;
+}

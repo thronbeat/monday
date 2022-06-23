@@ -1,0 +1,61 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     text-decoration: none;
+     scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+     width: 10px;
+     height: 40px;
+     background: #181818;
+     border-radius: 20px;
+}
+.header{
+     background-image: url(images/kitchen.jpg) ;
+     height: 15vh;
+     display: flex;
+     box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.1);
+     position: fixed;
+     width: 100%;
+}
+.header .ded{
+     margin-left: 15%;
+     color: #fff;
+     font-size: 18px;
+     margin-top: 25px;
+     
+}
+.header .ded a{
+     margin-left: 50px;
+     color: #fff;
+     padding: 10px;  
+}
+.header .ded a:hover{
+     background: rgb(19, 82, 19);
+     padding: 10px;
+     border-radius: 5px;
+}
+.header .ded .btn{
+     background: rgb(19, 82, 19);
+     padding: 10px;
+     border-radius: 5px;
+}
+.header .ded .btn:hover{
+     background: #181818;
+}
+.container{
+     display: flex;
+     max-width: 100%;
+}
+/*container division*/
+.container .images img{
+     width: 90%;
+     margin-top: 5%;
+     margin-left: 5%;
+     word-break: break-word;
+}
+.container .images p,span{
+     margin-left: 60px;
+}
